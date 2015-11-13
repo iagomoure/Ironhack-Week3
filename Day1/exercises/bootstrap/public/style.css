@@ -1,0 +1,119 @@
+body{
+	background-image:url(https://trello-backgrounds.s3.amazonaws.com/53baf533e697a982248cd73f/4200x4200/48dbf0b5a546541e847e267a5dcd2201/shutterstock_134707556.jpg)
+}
+.promo-nav-button{
+	background: 0 0;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    height: 15px;
+    line-height: 15px;
+    margin: 0 5px 5px 0;
+    padding: 8px;
+}
+
+.header-logo-default {
+    background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
+    background-repeat: no-repeat;
+    background-size: 5pc 30px;
+    height: 30px;
+    position: absolute;
+    width: 5pc;
+}
+
+.baner-header{
+	margin-top:10px;
+}
+	a.baner-header:hover{
+		color: #23527c;
+    	text-decoration: underline;
+	}
+.baner{
+	background: #efe3c3;
+    border-bottom: 1px solid #e7d6a7;
+    color: #3b372b;
+    font-size: 1pc;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px 10px 0px 10px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: background ease-in 250ms,padding ease-in 250ms;
+    transition: background ease-in 250ms,padding ease-in 250ms;
+    word-wrap: break-word;
+}
+.quiet{
+	color: #847b62;
+}
+a.agile{
+	cursor: default;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-left: 4px;
+    text-decoration: none;
+}
+	a.agile span{
+	cursor: default;
+	color: #f6f6f6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 5px;
+	}
+.board-header{
+	border-radius: 3px;
+    color: #f6f6f6;
+    cursor: default;
+    font-size: 9pt;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 4px 0 0;
+    overflow: hidden;
+    padding-left: 30px;
+    position: relative;
+    text-decoration: none;
+}
+.wraper{
+	width: 270px;
+    margin: 0 5px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+.list {
+    background: #e2e4e6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    position: relative;
+}
+.list-header{
+	flex: 0 0 auto;
+    padding: 8px 34px 8px 10px;
+    position: relative;
+    min-height: 19px;
+}
+.list-header-name{
+	display: inline;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+    min-height: 19px;
+    min-width: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+.list-cards{
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 4px;
+    padding: 0 4px;
+    z-index: 1;
+}

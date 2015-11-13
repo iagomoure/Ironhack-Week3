@@ -1,0 +1,35 @@
+*{
+   	font-family: 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+    color: rgb(33, 25, 34);
+    font-size: 12px;
+    height: 100%;
+}
+
+body{
+	margin:0px;
+	min-width: 750px;
+}
+
+header{
+	background-color: #000;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+    height: 54px;
+    position: fixed;
+    width: 100%;
+    z-index: 671;
+    /*transition: opacity 1s ease;*/
+}
+.rightHeader{
+	float: right;
+    margin-right: 7px;
+    width: 236px;
+    background-color: #fff;
+}
+
+.leftHeader{
+	float: none;
+    margin-left: 7px;
+    margin-right: 243px;
+    padding-right: 14px;
+    width: auto;
+}
